@@ -1,4 +1,5 @@
 {
+  "homepage": "https://it6c65.github.io/dollars-app",
   "private": true,
   "name": "dollarsapp",
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "build": "preact build",
     "serve": "sirv build --cors --single",
     "dev": "preact watch",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
@@ -18,6 +21,7 @@
   "devDependencies": {
     "eslint": "^6.0.1",
     "eslint-config-synacor": "^3.0.4",
+    "gh-pages": "^2.2.0",
     "preact-cli": "^3.0.0-rc.6",
     "sirv-cli": "^0.4.5"
   },
