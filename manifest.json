@@ -1,6 +1,6 @@
 {
-	"name": "dollars-app",
-	"start_url": "https://it6c65.github.io/dollars-app/",
+	"name": "preact-cli app",
+	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#fff",
 	"theme_color": "#673ab8",
