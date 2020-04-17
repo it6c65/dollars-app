@@ -1,8 +1,100 @@
-html, body {
-	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background-color: azure;
+	font-family: 'Roboto','Helvetica Neue', arial, sans-serif;
 }
 
 h1 {
 	text-align: center;
+}
+:root {
+	--currency-bg: darkgreen;
+	--currency-fg: white;
+}
+.home {
+	min-height: 100%;
+	width: 100%;
+	background-color: azure;
+}
+
+.presentation {
+	font-family: 'Anton','Helvetica Neue', arial, sans-serif;
+}
+
+.title {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	color: cadetblue;
+}
+
+.widget {
+	background-color: var(--currency-bg);
+	color: var(--currency-fg);
+	border-radius: 6px;
+	text-align: center;
+	width: 33%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.current-value {
+	color: var(--currency-bg);
+}
+
+.widget hr {
+	color: white;
+	margin: auto;
+	border-style: none;
+}
+
+.widget h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Bungee Shade', cursive;
+}
+
+.widget h2 {
+	margin-top: 1px;
+	border-width: 1px;
+	background-color: azure;
+	color: black;
+	border-color: black;
+	border-style: solid;
+}
+
+.other {
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.other hr {
+	border: dashed;
+	width: 80%;
+	border-width: 1px;
+}
+
+.other h3 {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.other h3:last-child {
+	margin-bottom: 10px;
+}
+
+.widget h2 i {
+	font-weight: 400;
+}
+
+.currencies {
+	display: flex;
+	flex-direction: row;
 }
