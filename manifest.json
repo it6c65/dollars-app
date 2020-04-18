@@ -1,7 +1,7 @@
 {
   "name": "dollarsApp",
   "short_name": "dollarsApp",
-  "start_url": "/",
+  "start_url": "https://it6c65.github.io/dollars-app",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
